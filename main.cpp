@@ -46,6 +46,7 @@ int main() {
     std::cout << "The reversed numbers are: ";
     for (double num : reversedNumbers)
         std::cout << num << ' ';
+
     std::cout << '\n';
 
     return 0;
