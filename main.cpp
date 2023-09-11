@@ -35,5 +35,6 @@ int main() {
     std::cout << "The sum of the numbers is: " << sum << '\n';
     std::cout << "The product of the numbers is: " << product << '\n';
 
+    // comments
     return 0;
 }
