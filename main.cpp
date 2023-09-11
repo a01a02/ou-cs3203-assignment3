@@ -16,7 +16,19 @@ double computeProduct(const std::vector<double>& numbers) {
 }
 
 int main() {
-    std::vector<double> numbers = {1.5, 3.0, 4.5, 9.0, 10.5};
+    std::vector<double> numbers;
+    int n;
+
+    std::cout << "Enter the number of elements(integer): ";
+    std::cin >> n;
+
+    std::cout << "Enter " << n << " numbers(floating point):\n";
+    for (int i = 0; i < n; ++i) {
+        double tmp;
+        std::cin >> tmp;
+        numbers.push_back(tmp)l
+    }
+
     double sum = computeSum(numbers);
     double product = computeProduct(numbers);
 
